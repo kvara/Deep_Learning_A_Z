@@ -103,6 +103,3 @@ for id_user in range(nb_users):
         test_loss += np.sqrt(loss.data[0]*mean_corrector)
         s += 1.
 print(f'epoch :{epoch}      loss :{test_loss/s}')
-
-
-
